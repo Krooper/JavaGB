@@ -3,10 +3,8 @@ public class Main {
     public static boolean checkSimplicity(int number) {
         if (number <= 3) return true;
         else if (number % 2 == 0 || number % 3 == 0) return false;
-        int j = 4;
-        while (j < number) {
+        for (int j = 4; j < number; j++) {
             if (number % j == 0) return false;
-            j++;
         }
         return true;
     }
