@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-01-24T14:30:16.350181975Z</date>
+  <millis>1674570616350</millis>
+  <nanos>181975</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>[25, 15, 2, 6, 990, 236, 863, 9, 58, 1123]</message>
+</record>
+<record>
+  <date>2023-01-24T14:30:16.389943180Z</date>
+  <millis>1674570616389</millis>
+  <nanos>943180</nanos>
+  <sequence>1</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>[15, 2, 6, 25, 236, 863, 9, 58, 990, 1123]</message>
+</record>
+<record>
+  <date>2023-01-24T14:30:16.390659138Z</date>
+  <millis>1674570616390</millis>
+  <nanos>659138</nanos>
+  <sequence>2</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>[2, 6, 15, 25, 236, 9, 58, 863, 990, 1123]</message>
+</record>
+<record>
+  <date>2023-01-24T14:30:16.391311294Z</date>
+  <millis>1674570616391</millis>
+  <nanos>311294</nanos>
+  <sequence>3</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>[2, 6, 15, 25, 9, 58, 236, 863, 990, 1123]</message>
+</record>
+<record>
+  <date>2023-01-24T14:30:16.391956188Z</date>
+  <millis>1674570616391</millis>
+  <nanos>956188</nanos>
+  <sequence>4</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>[2, 6, 15, 9, 25, 58, 236, 863, 990, 1123]</message>
+</record>
+<record>
+  <date>2023-01-24T14:30:16.392472088Z</date>
+  <millis>1674570616392</millis>
+  <nanos>472088</nanos>
+  <sequence>5</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>[2, 6, 9, 15, 25, 58, 236, 863, 990, 1123]</message>
+</record>
+<record>
+  <date>2023-01-24T14:30:16.392913188Z</date>
+  <millis>1674570616392</millis>
+  <nanos>913188</nanos>
+  <sequence>6</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>[2, 6, 9, 15, 25, 58, 236, 863, 990, 1123]</message>
+</record>
+<record>
+  <date>2023-01-24T14:30:16.393358185Z</date>
+  <millis>1674570616393</millis>
+  <nanos>358185</nanos>
+  <sequence>7</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>sorted</message>
+</record>
+</log>
