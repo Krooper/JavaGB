@@ -17,7 +17,7 @@ public class Main {
     }
 
     // Перевод введенного числа в массив чаров
-    public static char[] addendChecker() {
+    public static char[] numberChecker() {
         return numInputter().toCharArray();
     }
 
@@ -29,19 +29,6 @@ public class Main {
         } catch (Exception e) {
             System.out.println("Not a number!");
             return false;
-        }
-    }
-
-    // Проверка на число суммы в уравнении
-    public static int sumChecker() {
-        Scanner scan = new Scanner(System.in);
-        String sum = scan.nextLine();
-        try {
-            if (Integer.parseInt(sum) >= 0) return Integer.parseInt(sum);
-            else return sumChecker();
-        } catch (Exception e) {
-            System.out.println("Not a positive integer number!");
-            return sumChecker();
         }
     }
 
@@ -88,7 +75,7 @@ public class Main {
     }
 
     // В зависимости от наличия занка вопроса возвращаем массив возможных вариантов слагаемых
-    public static int[] addendVars(char[] num) {
+    public static int[] addendSumVars(char[] num) {
         if (questionFinder(num)) {
             int questionMark = questionIndexFinder(num);
             String fHalf = fStringMaker(num, questionMark);
@@ -116,7 +103,7 @@ public class Main {
                 }
                 return posAddend;
             } else {
-                return addendVars(addendChecker());
+                return addendSumVars(numberChecker());
             }
 
         } else {
@@ -127,19 +114,20 @@ public class Main {
             if (numChecker(posAddendStr.toString())) {
                 return new int[]{Integer.parseInt(posAddendStr.toString())};
             } else {
-                return addendVars(addendChecker());
+                return addendSumVars(numberChecker());
             }
-
         }
     }
 
     // Проверка уровнения на равенство
-    public static boolean equationCheck(int[] firstAddends, int[] secondAddends, int sum) {
+    public static boolean equationCheck(int[] firstAddends, int[] secondAddends, int[] sums) {
         for (int firstAddend : firstAddends) {
             for (int secondAddend : secondAddends) {
-                if (firstAddend + secondAddend == sum) {
-                    System.out.printf("%d + %d = %d\n", firstAddend, secondAddend, sum);
-                    return true;
+                for (int sum : sums) {
+                    if (firstAddend + secondAddend == sum) {
+                        System.out.printf("%d + %d = %d\n", firstAddend, secondAddend, sum);
+                        return true;
+                    }
                 }
             }
         }
@@ -149,11 +137,11 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("We will check the equation: q + w = e, q, w, e >= 0.");
         System.out.print("Input q: ");
-        int[] firstAddends = addendVars(addendChecker());
+        int[] firstAddends = addendSumVars(numberChecker());
         System.out.print("Input w: ");
-        int[] secondAddends = addendVars(addendChecker());
+        int[] secondAddends = addendSumVars(numberChecker());
         System.out.print("Input e: ");
-        int sum = sumChecker();
+        int[] sum = addendSumVars(numberChecker());
 
         if (!equationCheck(firstAddends, secondAddends, sum)) System.out.println("There is no solution!");
     }
