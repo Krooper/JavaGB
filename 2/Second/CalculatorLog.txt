@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-01-24T15:10:11.114626201Z</date>
+  <millis>1674573011114</millis>
+  <nanos>626201</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>14.0 + 5.0 = 19.0</message>
+</record>
+<record>
+  <date>2023-01-24T15:10:11.128004671Z</date>
+  <millis>1674573011128</millis>
+  <nanos>4671</nanos>
+  <sequence>1</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Calculated!</message>
+</record>
+<record>
+  <date>2023-01-24T15:10:15.781032241Z</date>
+  <millis>1674573015781</millis>
+  <nanos>32241</nanos>
+  <sequence>2</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>65.0 - 98.0 = -33.0</message>
+</record>
+<record>
+  <date>2023-01-24T15:10:15.781988449Z</date>
+  <millis>1674573015781</millis>
+  <nanos>988449</nanos>
+  <sequence>3</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Calculated!</message>
+</record>
+<record>
+  <date>2023-01-24T15:10:27.035714744Z</date>
+  <millis>1674573027035</millis>
+  <nanos>714744</nanos>
+  <sequence>4</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>45.0 / 5.0 = 9.0</message>
+</record>
+<record>
+  <date>2023-01-24T15:10:27.036678557Z</date>
+  <millis>1674573027036</millis>
+  <nanos>678557</nanos>
+  <sequence>5</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Calculated!</message>
+</record>
+<record>
+  <date>2023-01-24T15:10:40.895182769Z</date>
+  <millis>1674573040895</millis>
+  <nanos>182769</nanos>
+  <sequence>6</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>65.0 / 9.0 = 585.0</message>
+</record>
+<record>
+  <date>2023-01-24T15:10:40.895999685Z</date>
+  <millis>1674573040895</millis>
+  <nanos>999685</nanos>
+  <sequence>7</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Calculated!</message>
+</record>
+</log>
